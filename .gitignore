@@ -6,3 +6,7 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+/Doc/
+/allure-results/
+/allure-report/
+/.github/
