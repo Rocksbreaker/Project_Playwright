@@ -1,0 +1,3 @@
+https://demoqa.com  :  200
+http://demoqa.com  :  200
+http://the-internet.herokuapp.com/status_codes/500  :  500

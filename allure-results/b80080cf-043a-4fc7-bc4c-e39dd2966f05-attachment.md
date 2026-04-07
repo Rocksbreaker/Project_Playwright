@@ -1,0 +1,102 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]:
+            - img [ref=e17]
+            - text: Elements
+          - img [ref=e22]
+        - list [ref=e25]:
+          - listitem [ref=e26] [cursor=pointer]:
+            - link "Text Box" [ref=e27]:
+              - /url: /text-box
+              - img [ref=e28]
+              - text: Text Box
+          - listitem [ref=e30] [cursor=pointer]:
+            - link "Check Box" [ref=e31]:
+              - /url: /checkbox
+              - img [ref=e32]
+              - text: Check Box
+          - listitem [ref=e34] [cursor=pointer]:
+            - link "Radio Button" [ref=e35]:
+              - /url: /radio-button
+              - img [ref=e36]
+              - text: Radio Button
+          - listitem [ref=e38] [cursor=pointer]:
+            - link "Web Tables" [ref=e39]:
+              - /url: /webtables
+              - img [ref=e40]
+              - text: Web Tables
+          - listitem [ref=e42] [cursor=pointer]:
+            - link "Buttons" [ref=e43]:
+              - /url: /buttons
+              - img [ref=e44]
+              - text: Buttons
+          - listitem [ref=e46] [cursor=pointer]:
+            - link "Links" [ref=e47]:
+              - /url: /links
+              - img [ref=e48]
+              - text: Links
+          - listitem [ref=e50] [cursor=pointer]:
+            - link "Broken Links - Images" [ref=e51]:
+              - /url: /broken
+              - img [ref=e52]
+              - text: Broken Links - Images
+          - listitem [ref=e54] [cursor=pointer]:
+            - link "Upload and Download" [ref=e55]:
+              - /url: /upload-download
+              - img [ref=e56]
+              - text: Upload and Download
+          - listitem [ref=e58] [cursor=pointer]:
+            - link "Dynamic Properties" [ref=e59]:
+              - /url: /dynamic-properties
+              - img [ref=e60]
+              - text: Dynamic Properties
+      - generic [ref=e64] [cursor=pointer]:
+        - generic [ref=e65]:
+          - img [ref=e67]
+          - text: Forms
+        - img [ref=e73]
+      - generic [ref=e77] [cursor=pointer]:
+        - generic [ref=e78]:
+          - img [ref=e80]
+          - text: Alerts, Frame & Windows
+        - img [ref=e85]
+      - generic [ref=e89] [cursor=pointer]:
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - text: Widgets
+        - img [ref=e98]
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]:
+          - img [ref=e105]
+          - text: Interactions
+        - img [ref=e110]
+      - generic [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - text: Book Store Application
+        - img [ref=e122]
+    - generic [ref=e125]:
+      - heading "Broken Links - Images" [level=1] [ref=e126]
+      - paragraph [ref=e127]: Valid image
+      - img [ref=e128]
+      - paragraph [ref=e129]: Broken image
+      - img
+      - paragraph [ref=e130]: Valid Link
+      - link "Click Here for Valid Link" [ref=e131] [cursor=pointer]:
+        - /url: http://demoqa.com
+      - paragraph [ref=e132]: Broken Link
+      - link "Click Here for Broken Link" [ref=e133] [cursor=pointer]:
+        - /url: http://the-internet.herokuapp.com/status_codes/500
+  - contentinfo [ref=e140]:
+    - generic [ref=e141]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
