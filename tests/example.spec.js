@@ -9,7 +9,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test.only('Broken links', async ({ page,request }) => {
+test('Broken links', async ({ page,request }) => {
   await page.goto('https://demoqa.com/broken');
   const links = await page.locator('a').all();
   for(const link of links){
