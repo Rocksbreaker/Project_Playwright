@@ -1,0 +1,19 @@
+stages:
+  -build
+  -test
+  -deploy
+
+job_install:
+  stage: build
+  script:
+    -npm install
+
+job_regression:
+  stage: test
+  script:
+    -npx playwright install
+    -npx playwright test
+
+artifacts:
+  paths:
+    -./test-report/

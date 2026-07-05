@@ -4,7 +4,7 @@ export class Sample{
     constructor(page){
         this.page = page;
         this.addBtn = page.getByRole("button",{name:"Add"})
-        this.firstname = page.getByPlaceholder("First Name")
+        this.username = page.getByPlaceholder("Username")
     }
 
     
@@ -12,7 +12,7 @@ export class Sample{
         await this.addBtn.click();
     }
 
-    async firstnameFill(fname){
-        await this.firstname.fill(fname);
+    async userNameFill(uname){
+        await this.username.fill(uname);
     }
 }

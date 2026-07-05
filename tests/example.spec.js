@@ -22,7 +22,7 @@ test('Broken links', async ({ page,request }) => {
   }
 });
 
-test("Broken Image",async({page})=>{
+test.only("Broken Image",async({page})=>{
   await page.goto('https://demoqa.com/broken');
   const BrokenImage = [];
   const images = await page.locator('img').all();
@@ -86,7 +86,7 @@ await expect(await page.getByText("This is a small modal. It has very less conte
 await page.locator("#closeSmallModal").click();
 });
 
-test("Alerts, prompt", async({page})=>{
+test.only("Alerts, prompt", async({page})=>{
 await page.goto("https://demoqa.com/alerts");
 //Alert
 await page.waitForTimeout(3000);
@@ -320,6 +320,10 @@ test("API Mocking", async({page})=>{
   await page.locator("#currentAddress").fill("123 Main Street");
   await page.locator("#submit").click();
 });
+
+
+
+
 
 
 
